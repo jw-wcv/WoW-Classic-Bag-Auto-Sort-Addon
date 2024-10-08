@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Tab Sorter",
+    "description": "Automatically sorts tabs into separate windows based on predefined rules.",
+    "version": "1.0",
+    "permissions": ["tabs", "storage", "alarms"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "options_page": "options.html"
+  }
+  
